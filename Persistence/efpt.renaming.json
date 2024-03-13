@@ -1,0 +1,8 @@
+﻿[
+   {
+      "ColumnPatternReplaceWith": "",
+      "ColumnRegexPattern": "^([a-zA-Z0-9]*_)",
+      "Tables": [ ],
+      "UseSchemaName": false
+   }
+]

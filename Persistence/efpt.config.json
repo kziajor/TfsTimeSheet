@@ -1,0 +1,52 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": ".\\AppDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Entities",
+   "OutputContextPath": ".\\",
+   "OutputPath": "Entities\/Generated",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Honest.Timesheet.Persistence",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "Projects",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Records",
+         "ObjectType": 0
+      },
+      {
+         "Name": "Tasks",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": ".\\Data.db",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": true,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": true,
+   "UseSchemaFolders": true,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": true
+}

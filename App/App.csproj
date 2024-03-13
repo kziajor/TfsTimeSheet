@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <ApplicationHighDpiMode>DpiUnaware</ApplicationHighDpiMode>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BusinessLogic\Honest.Timesheet.BusinessLogic.csproj" />
+        <ProjectReference Include="..\DbMigrator\Honest.Timesheet.DbMigrator.csproj" />
+        <ProjectReference Include="..\Domain\Honest.Timesheet.Domain.csproj" />
+        <ProjectReference Include="..\Persistence\Honest.Timesheet.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>

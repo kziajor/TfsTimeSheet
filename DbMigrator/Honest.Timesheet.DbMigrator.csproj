@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MigrationScripts\20240313.1820.CreateProjectsTable.sql" />
+    <EmbeddedResource Include="MigrationScripts\20240313.1837.CreateTasksTable.sql" />
+    <EmbeddedResource Include="MigrationScripts\20240313.1838.CreateRecordsTable.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-core" Version="5.0.76" />
+    <PackageReference Include="dbup-sqlite" Version="5.0.40" />
+  </ItemGroup>
+
+</Project>
